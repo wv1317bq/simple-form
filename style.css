@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding: 5px;
+}
+
+footer {
+    padding: 15px 5px;
+    font-size: 0.8em;
+    color: #666666;
+}
