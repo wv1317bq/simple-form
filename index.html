@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonflower's Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<header>Moonflower's Coffee</header>
+<h1>Newsletter</h1>
+<p>Register for our weekly or monthly newsletter by submitting the following form.</p>
+<h2>Newsletter Subscription</h2>
+<p>Required fields are marked with an asterisk*</p>
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+    <fieldset>
+        <legend>Frequency:</legend>
+        <input type="radio" name="weekly" id="weekly" value="Weekly">Weekly&nbsp;
+        <input type="radio" name="monthly" id="monthly" value="Monthly">Monthly&nbsp;
+        <input type="radio" name="specials" id="specials" value="Special Only">Specials Only
+    </fieldset>
+    <br>   
+    <br>
+    <label for= "fName">*First Name: 
+    <input type="text" name= "fName" id="fName" maxlength="35" required="required"></label>
+    <br><br>
+    <label for= "lName">*Last Name:
+    <input type="text" name= "lName" id="lName" maxlength="35" required="required"></label>
+    <br><br>
+    <label for= "email">*Email: 
+    <input type="text" name= "email" id="email" maxlength="35" required="required"></label>
+    <br><br>
+
+    <label>Comment:
+    <textarea name="comments" id="comments" rows="5" cols="34"></textarea></label><br>
+    <input type="submit" value="Submit">
+</form>   
+ <footer>
+        <p>Copyright &copy; 2016 Moonflower's Coffee<br>
+        <a href="mailto:=support@moonflowerscoffee.com">support@moonflowerscoffee.com</a></p>
+</footer>   
+    
+    
+</body>
+</html>

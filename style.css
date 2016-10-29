@@ -1,3 +1,8 @@
+header{
+    font-weight: bold;
+    font-size: 3em;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -6,8 +11,39 @@ main {
     padding: 5px;
 }
 
+fieldset{
+    width:350px;
+    border: 2px solid grey;
+}
+
+label{
+    padding-right: 10px;
+    width: 120px;
+    text-align: right;
+
+    
+}
+
+input[type="submit"], textarea {
+    margin-left: 130px;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
 footer {
     padding: 15px 5px;
     font-size: 0.8em;
     color: #666666;
+}
+
+
+@media only screen and (max-width: 480px){
+    header{font-size: 100%}
+    h1,h2{font-size: 85%}
+    label{width:100%; float:none; text-align: left;margin-bottom: 20px;}
+    input{width: 100%; display: block; }
+    input[type="submit"], textarea{margin:auto; width:100%}
+    
 }
